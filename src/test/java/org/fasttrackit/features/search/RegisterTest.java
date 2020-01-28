@@ -43,7 +43,6 @@ public class RegisterTest {
         registerSteps.enterRequiredInfo("vladpopa84@yahoo", "Rossignol9gs");
         registerSteps.clickRegisterButton();
         registerSteps.checkLoggedIn("vladpopa84");
-
     }
 
 }
