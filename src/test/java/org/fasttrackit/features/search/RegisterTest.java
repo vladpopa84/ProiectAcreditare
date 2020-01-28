@@ -22,17 +22,22 @@ public class RegisterTest {
     public void registerTest() {
         registerSteps.navigateToHomepage();
         registerSteps.goToRegisterPage();
-        registerSteps.enterRequiredInfo("vladpopa853@yahoo.com", "Rossignol9gs");
+        registerSteps.enterRequiredInfo("vladpopa856@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
-        registerSteps.checkLoggedIn("vladpopa853");
+        registerSteps.checkLoggedIn("vladpopa856");
     }
 
     @Test
-    public void alreadyRegisteredTest() {
+    public void alreadyRegisteredTest()  {
         registerSteps.navigateToHomepage();
         registerSteps.goToRegisterPage();
         registerSteps.enterRequiredInfo("vladpopa84@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         registerSteps.checkErrorMessage("Error:");
     }
 
@@ -42,7 +47,7 @@ public class RegisterTest {
         registerSteps.goToRegisterPage();
         registerSteps.enterRequiredInfo("vladpopa84@yahoo", "Rossignol9gs");
         registerSteps.clickRegisterButton();
-        registerSteps.checkLoggedIn("vladpopa84");
+        registerSteps.checkErrorMessage("Error:");
     }
 
 }
