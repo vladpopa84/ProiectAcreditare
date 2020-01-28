@@ -34,7 +34,6 @@ public class RegisterTest {
         registerSteps.enterRequiredInfo("vladpopa84@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
         registerSteps.checkErrorMessage("Error:");
-
     }
 
     @Test
