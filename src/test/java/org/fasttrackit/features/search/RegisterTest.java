@@ -28,7 +28,7 @@ public class RegisterTest {
     }
 
     @Test
-    public void alreadyRegisteredTest()  {
+    public void alreadyRegisteredTest() {
         registerSteps.navigateToHomepage();
         registerSteps.goToRegisterPage();
         registerSteps.enterRequiredInfo("vladpopa84@yahoo.com", "Rossignol9gs");

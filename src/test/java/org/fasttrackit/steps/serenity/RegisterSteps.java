@@ -29,7 +29,7 @@ public class RegisterSteps {
     }
 
     @Step
-    public void clickRegisterButton(){
+    public void clickRegisterButton() {
         registerPage.clickRegisterButton();
     }
 
