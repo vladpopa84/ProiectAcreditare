@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="org.fasttrackit.features.search.RegisterTest" skipped="0" tests="3" time="21.42" timestamp="2020-01-28 08:04:46"><testcase classname="org.fasttrackit.features.search.RegisterTest" name="Z registered test"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+org.fasttrackit.steps.serenity.RegisterSteps.checkErrorMessage(RegisterSteps.java:43)&#13;
+org.fasttrackit.features.search.RegisterTest.zRegisteredTest(RegisterTest.java:38)&#13;
+</system-err></testcase><testcase classname="org.fasttrackit.features.search.RegisterTest" name="Register test"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+org.fasttrackit.steps.serenity.RegisterSteps.checkLoggedIn(RegisterSteps.java:38)&#13;
+org.fasttrackit.features.search.RegisterTest.registerTest(RegisterTest.java:29)&#13;
+</system-err></testcase><testcase classname="org.fasttrackit.features.search.RegisterTest" name="Invalid email format"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+org.fasttrackit.steps.serenity.RegisterSteps.checkLoggedIn(RegisterSteps.java:38)&#13;
+org.fasttrackit.features.search.RegisterTest.invalidEmailFormat(RegisterTest.java:48)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.fasttrackit.features.search.RegisterTest" skipped="0" tests="3" time="21.95" timestamp="2020-01-28 08:08:07"><testcase classname="org.fasttrackit.features.search.RegisterTest" name="Already registered test"/><testcase classname="org.fasttrackit.features.search.RegisterTest" name="Register test"/><testcase classname="org.fasttrackit.features.search.RegisterTest" name="Invalid email format"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+org.fasttrackit.steps.serenity.RegisterSteps.checkLoggedIn(RegisterSteps.java:38)&#13;
+org.fasttrackit.features.search.RegisterTest.invalidEmailFormat(RegisterTest.java:46)&#13;
+</system-err></testcase></testsuite>

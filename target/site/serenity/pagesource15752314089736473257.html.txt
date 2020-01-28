@@ -1,0 +1,379 @@
+<html lang="en-US"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://qa2.fasttrackit.org:8008/xmlrpc.php">
+
+	<title>My account – FastTrackIT</title>
+<meta name="robots" content="noindex,follow">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="FastTrackIT » Feed" href="http://qa2.fasttrackit.org:8008/?feed=rss2">
+<link rel="alternate" type="application/rss+xml" title="FastTrackIT » Comments Feed" href="http://qa2.fasttrackit.org:8008/?feed=comments-rss2">
+		<script src="http://qa2.fasttrackit.org:8008/wp-includes/js/zxcvbn.min.js" type="text/javascript" async=""></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/qa2.fasttrackit.org:8008\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.5"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="http://qa2.fasttrackit.org:8008/wp-includes/js/wp-emoji-release.min.js?ver=4.9.5" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="select2-css" href="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/css/select2.css?ver=3.3.5" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.3.5" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.3.5" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.3.5" type="text/css" media="all">
+<link rel="stylesheet" id="eightstore-google-fonts-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C300%7COswald%3A400%2C700%2C300%7CDosis%3A400%2C300%2C500%2C600%2C700%7CLato%3A400%2C300%2C700%2C900&amp;ver=4.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/css/font-awesome.min.css?ver=4.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="eightstore-animate-css" href="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/css/animate.css?ver=4.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="eightstore-slick-css" href="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/css/slick.css?ver=4.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="eightstore-fancybox-css" href="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/css/fancybox.css?ver=4.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="eightstore-custom-scrollcss-css" href="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/css/jquery.mCustomScrollbar.css?ver=4.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="eightstore-style-css" href="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/style.css?ver=4.9.5" type="text/css" media="all">
+<link rel="stylesheet" id="eightstore-responsive-css" href="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/css/responsive.css?ver=4.9.5" type="text/css" media="all">
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"http:\/\/qa2.fasttrackit.org:8008\/wp-includes\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-includes/js/zxcvbn-async.min.js?ver=1.0"></script>
+<link rel="https://api.w.org/" href="http://qa2.fasttrackit.org:8008/index.php?rest_route=/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://qa2.fasttrackit.org:8008/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://qa2.fasttrackit.org:8008/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.9.5">
+<meta name="generator" content="WooCommerce 3.3.5">
+<link rel="canonical" href="http://qa2.fasttrackit.org:8008/?page_id=7">
+<link rel="shortlink" href="http://qa2.fasttrackit.org:8008/?p=7">
+<link rel="alternate" type="application/json+oembed" href="http://qa2.fasttrackit.org:8008/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fqa2.fasttrackit.org%3A8008%2F%3Fpage_id%3D7">
+<link rel="alternate" type="text/xml+oembed" href="http://qa2.fasttrackit.org:8008/index.php?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fqa2.fasttrackit.org%3A8008%2F%3Fpage_id%3D7&amp;format=xml">
+	<script type="text/javascript">
+		jQuery(function($){
+			$('#home-slider .es-slider').slick({
+				dots: true,
+				arrows: true,
+				autoplay:true,
+				fade: true,
+				speed: 1000,
+				cssEase: 'linear',
+				pauseOnHover: false
+			});				
+		});
+	</script>
+		<style type="text/css" id="dynamic-styles">
+		body{
+					}
+
+		
+				
+
+		h1{
+					}
+		h2{
+					}
+		h3{
+					}
+		h4{
+					}
+		h5{
+					}
+		h6{
+					}
+	</style>
+		<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="robots" content="noindex,follow">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+			<style type="text/css">
+			.site-title a,
+		.site-description {
+			color: #000000;
+		}
+		</style>
+	</head>
+
+<body class="page-template-default page page-id-7 woocommerce-account woocommerce-page ">
+	<div id="page" class="hfeed site">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+			<div class="top-header">
+				<div class="store-wrapper clear">
+															<div class="header-callto">
+																							</div>
+				</div>
+			</div><!-- Top Header -->
+
+			<div class="main-header">
+				<div class="store-wrapper">
+					<div class="site-branding">
+												<div class="site-titles">
+							<h1 class="site-title"><a href="http://qa2.fasttrackit.org:8008/" rel="home">FastTrackIT</a></h1>
+							<a href="http://qa2.fasttrackit.org:8008/" rel="home"><div class="site-description">Just another WordPress site</div></a>
+						</div>
+					</div><!-- .site-branding -->
+					
+					<div class="right-links">
+						<!-- if enabled from customizer -->
+												<div class="header-search">
+							<a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+							<div class="search-box">
+								<div class="close"> × </div>
+								<form method="get" class="searchform" action="http://qa2.fasttrackit.org:8008/" role="search">
+	<input type="text" name="s" value="" class="search-field" placeholder="">
+	<div class="search-in-select">
+		<span class="search-in">in</span>
+		<select name="post_type" class="select-search-type">
+			<option value="">All</option>
+			<option value="product">Product</option>
+			<option value="post">Post</option>
+		</select>
+	</div>
+	<button type="submit" class="searchsubmit"><i class="fa fa-search"></i></button>
+</form>
+							</div>
+						</div> <!--  search-form-->
+						
+						<div class="my-account">
+							<i class="fa fa-unlock-alt"></i>
+							<div class="welcome-user">
+								<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+	
+	
+	<p class="form-row form-row-first">
+		<label for="username">Username or email <span class="required">*</span></label>
+		<input type="text" class="input-text" name="username" id="username">
+	</p>
+	<p class="form-row form-row-last">
+		<label for="password">Password <span class="required">*</span></label>
+		<input class="input-text" type="password" name="password" id="password">
+	</p>
+	<div class="clear"></div>
+
+	
+	<p class="form-row">
+		<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="e7fb4f9917"><input type="hidden" name="_wp_http_referer" value="/?page_id=7">		<button type="submit" class="button" name="login" value="Login">Login</button>
+		<input type="hidden" name="redirect" value="">
+		<label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
+			<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Remember me</span>
+		</label>
+	</p>
+	<p class="lost_password">
+		<a href="http://qa2.fasttrackit.org:8008/?page_id=7&amp;lost-password">Lost your password?</a>
+	</p>
+
+	<div class="clear"></div>
+
+	
+</form>
+										<a href="http://qa2.fasttrackit.org:8008/?page_id=7" class="register">
+											Register										</a>
+																	</div>
+						</div>
+
+						<!-- Cart Link -->
+						<div class="cart-box">
+														<a class="cart-contents" href="http://qa2.fasttrackit.org:8008/?page_id=5" title="View your shopping cart">
+								<div class="count">
+								<i class="fa fa-shopping-cart"></i>
+									<span class="cart-count">0</span>
+								</div>	               	
+							</a>
+							<div class="widget woocommerce widget_shopping_cart mCustomScrollbar _mCS_1 mCS_no_scrollbar"><div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_vertical mCSB_inside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr"><div class="widget_shopping_cart_content">
+
+	<p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
+
+
+</div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>													</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div><!-- Main Header -->
+			<div class="store-menu">
+				<div class="store-wrapper">
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"></button>
+						<div class="menu-a-container"><ul id="primary-menu" class="menu nav-menu" aria-expanded="false"><li id="menu-item-63" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-63"><a href="http://qa2.fasttrackit.org:8008">Home</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-64"><a href="http://qa2.fasttrackit.org:8008/?page_id=7">My account</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://qa2.fasttrackit.org:8008/?page_id=4">Shop</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://qa2.fasttrackit.org:8008/?page_id=6">Checkout</a></li>
+</ul></div>					</nav><!-- #site-navigation -->
+					<div class="clear"></div>
+				</div>
+			</div><!-- Main Header -->
+
+		</header><!-- #masthead -->
+
+		<div id="content" class="site-content">
+<div class="store-wrapper">
+	<main id="main" class="site-main clearfix sidebar-right" role="main">
+					<div id="primary" class="content-area">
+				
+					
+<article id="post-7" class="post-7 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">My account</h1>	</header><!-- .entry-header -->
+		<div class="entry-content">
+		<div class="woocommerce">
+<ul class="woocommerce-error" role="alert">
+			<li><strong>Error:</strong> Please provide a valid email address.</li>
+	</ul>
+
+
+
+<div class="u-columns col2-set" id="customer_login">
+
+	<div class="u-column1 col-1">
+
+
+		<h2>Login</h2>
+
+		<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+			
+			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="username">Username or email address <span class="required">*</span></label>
+				<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" value="">			</p>
+			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="password">Password <span class="required">*</span></label>
+				<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password">
+			</p>
+
+			
+			<p class="form-row">
+				<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="e7fb4f9917"><input type="hidden" name="_wp_http_referer" value="/?page_id=7">				<button type="submit" class="woocommerce-Button button" name="login" value="Login">Login</button>
+				<label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
+					<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Remember me</span>
+				</label>
+			</p>
+			<p class="woocommerce-LostPassword lost_password">
+				<a href="http://qa2.fasttrackit.org:8008/?page_id=7&amp;lost-password">Lost your password?</a>
+			</p>
+
+			
+		</form>
+
+
+	</div>
+
+	<div class="u-column2 col-2">
+
+		<h2>Register</h2>
+
+		<form method="post" class="register">
+
+			
+			
+			<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+				<label for="reg_email">Email address <span class="required">*</span></label>
+				<input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" value="vladpopa852@yahoo">			</p>
+
+			
+				<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+					<label for="reg_password">Password <span class="required">*</span></label>
+					<input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password">
+				</p>
+
+			
+			
+			<p class="woocommerce-FormRow form-row">
+				<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="fc924a813a"><input type="hidden" name="_wp_http_referer" value="/?page_id=7">				<button type="submit" class="woocommerce-Button button" name="register" value="Register">Register</button>
+			</p>
+
+			
+		</form>
+
+	</div>
+
+</div>
+
+</div>
+				</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+					</footer><!-- .entry-footer -->
+	</article><!-- #post-## -->
+
+
+					
+							</div><!-- #primary -->
+			
+	</main><!-- #main -->
+</div>
+
+</div><!-- #content -->
+<div class="clear"></div>
+<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="store-footer">
+		<div class="store-wrapper">
+			<div class="footer-copyrt">
+				<div class="site-info">
+										WordPress Theme : <a title="Free WordPress Theme" href="https://8degreethemes.com/wordpress-themes/eightstore-lite/">EightStore Lite </a>
+					<span> by 8Degree Themes</span>
+				</div><!-- .site-info -->
+
+				<!-- Social Icons -->
+				
+					<!-- Payment Partner Logos -->
+									</div>
+			</div>
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+<div id="es-top" style="right: -65px;"></div>
+<link href="//fonts.googleapis.com/css?family=Arimo:400,700|Open+Sans:400,700,600italic,300|Roboto+Condensed:300,400,700|Roboto:300,400,700|Slabo+27px|Oswald:400,300,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|PT+Sans:400,700,400italic,700italic|Droid+Sans:400,700|Raleway:400,100,200,300,500,600,700,800,900|Droid+Serif:400,700,400italic,700italic|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Montserrat:400,700|Roboto+Slab:400,100,300,700|Merriweather:400italic,400,900,300italic,300,700,700italic,900italic|Lora:400,700,400italic,700italic|PT+Sans+Narrow:400,700|Bitter:400,700,400italic|Lobster|Yanone+Kaffeesatz:400,200,300,700|Arvo:400,700,400italic,700italic|Oxygen:400,300,700|Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900|Dosis:200,300,400,500,600,700,800|Ubuntu+Condensed|Playfair+Display:400,700,900,400italic,700italic,900italic|Cabin:400,500,600,700,400italic,500italic,600italic|Muli:300,400,300italic,400italic" rel="stylesheet" type="text/css"><script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/qa2.fasttrackit.org:8008\/?page_id=5","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.3.5"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js?ver=1.0.3"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-admin/js/password-strength-meter.min.js?ver=4.9.5"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_password_strength_meter_params = {"min_password_strength":"3","i18n_password_error":"Please enter a stronger password.","i18n_password_hint":"Hint: The password should be at least twelve characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! \" ? $ % ^ & )."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js?ver=3.3.5"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.3.5"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_317d7d2a73f215ccd051e677d89a4c38","fragment_name":"wc_fragments_317d7d2a73f215ccd051e677d89a4c38"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.3.5"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/jquery.mousewheel-3.0.4.pack.js?ver=3.0.4"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/jquery.fancybox-1.3.4.js?ver=1.3.4"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/wow.min.js?ver=1.1.2"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/slick.js?ver=1.5.0"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/navigation.js?ver=20120206"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/jquery.mCustomScrollbar.concat.min.js?ver=20130115"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/skip-link-focus-fix.js?ver=20130115"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-content/themes/eightstore-lite/js/custom-scripts.js?ver=20150611"></script>
+<script type="text/javascript" src="http://qa2.fasttrackit.org:8008/wp-includes/js/wp-embed.min.js?ver=4.9.5"></script>
+
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap" style=""><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>
