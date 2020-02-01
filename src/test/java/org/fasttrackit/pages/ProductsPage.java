@@ -3,8 +3,10 @@ package org.fasttrackit.pages;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 
 public class ProductsPage extends PageObject {
@@ -21,6 +23,12 @@ public class ProductsPage extends PageObject {
 
     @FindBy(css = ".entry-title > a")
     private List<WebElementFacade> searchedProducts;
+
+    @FindBy(css = ".orderby")
+    private WebElementFacade orderTypeSelector;
+
+    @FindBy(css = ".columns-4")
+    private List<WebElementFacade> listOfProducts;
 
 
     public void searchProduct(String text) {
@@ -47,4 +55,34 @@ public class ProductsPage extends PageObject {
         return searchedProducts.size() == size;
     }
 
+    public void selectPriceAscending(String text) {
+        orderTypeSelector.selectByVisibleText(text);
+    }
+
+    public boolean checkProductsPrices() {
+        int priceCurrent;
+        int priceNext;
+        for (int i = 0; i <= listOfProducts.size() - 2; i++) {
+            try {
+                String priceI = listOfProducts.get(i)
+                        .findBy(By.cssSelector(".price > .amount"))
+                        .getText().replace(",00 RON", "").trim();
+                priceCurrent = Integer.valueOf(priceI);
+
+                String priceI2 = listOfProducts.get(i + 1)
+                        .findBy(By.cssSelector("#product-19 > div.summary.entry-summary > p > ins > span"))
+                        .getText().replace(",00 RON", "").trim();
+                priceNext = Integer.valueOf(priceI2);
+
+                System.out.println("INt de i : " + i);
+
+                if (priceCurrent > priceNext) {
+                    return false;
+                }
+            } catch (NoSuchElementException e) {
+                continue;
+            }
+        }
+        return true;
+    }
 }
