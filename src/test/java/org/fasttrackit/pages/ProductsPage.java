@@ -27,8 +27,17 @@ public class ProductsPage extends PageObject {
     @FindBy(css = ".orderby")
     private WebElementFacade orderTypeSelector;
 
-    @FindBy(css = ".columns-4")
+    @FindBy(css = "ul.products li")
     private List<WebElementFacade> listOfProducts;
+
+    @FindBy(css = ".post-27>div.item-img")
+    private WebElementFacade firstProduct;
+
+    @FindBy(css = ".single_add_to_cart_button")
+    private WebElementFacade addToCartButton;
+
+    @FindBy(css = ".woocommerce-message")
+    private WebElementFacade confirmationMessage;
 
 
     public void searchProduct(String text) {
@@ -85,4 +94,22 @@ public class ProductsPage extends PageObject {
         }
         return true;
     }
+
+    public void addProductToCart(String productName) {
+        //clickOn(firstProduct);
+        for(WebElementFacade elementFacade: listOfProducts){
+            String name = elementFacade.findElement(By.cssSelector("h3")).getText().trim();
+            if(name.contentEquals(productName)){
+                //elementFacade.findElement(By.cssSelector("a.collection_title")).click();
+                elementFacade.click();
+                break;
+            }
+        }
+        clickOn(addToCartButton);
+    }
+
+    public boolean checkConfirmationMessage (String text) {
+        return confirmationMessage.containsText(text);
+    }
+
 }

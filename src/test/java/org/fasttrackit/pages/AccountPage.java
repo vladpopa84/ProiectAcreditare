@@ -33,6 +33,9 @@ public class AccountPage extends PageObject {
     @FindBy(css = ".woocommerce-Button[value='Login']")
     public WebElementFacade loginButton;
 
+    @FindBy(css = "#menu-item-66>a")
+    public WebElementFacade shopLink;
+
 
     public void setEmailField(String email) {
         typeInto(regEmailField, email);
@@ -68,5 +71,9 @@ public class AccountPage extends PageObject {
 
     public void clickLoginButton() {
         clickOn(loginButton);
+    }
+
+    public void clickShopLink() {
+        clickOn(shopLink);
     }
 }
