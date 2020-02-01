@@ -44,6 +44,7 @@ public class LoginTest {
         loginSteps.clickRememberMeCheckbox();
         loginSteps.clickLoginButton();
         loginSteps.checkLoggedIn("vladpopa84");
+
     }
 
 
