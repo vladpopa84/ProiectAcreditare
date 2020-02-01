@@ -15,10 +15,10 @@ public class AccountPage extends PageObject {
     @FindBy(css = ".button[name=register]")
     public WebElementFacade registerButton;
 
-    @FindBy(css = "strong:first-of-type")
+    @FindBy(css = ".woocommerce-MyAccount-content strong:first-child")
     public WebElementFacade wellcomeMessage;
 
-    @FindBy(css = "strong:first-of-type")
+    @FindBy(css = "li strong")
     public WebElementFacade errorMessage;
 
     @FindBy(css = ".form-row-wide #username")
@@ -57,6 +57,8 @@ public class AccountPage extends PageObject {
         return errorMessage.containsOnlyText(text);
     }
 
+
+
     public void inputEmail(String email) {
         typeInto(emailField, email);
     }
@@ -73,7 +75,9 @@ public class AccountPage extends PageObject {
         clickOn(loginButton);
     }
 
-    public void clickShopLink() {
+
+    public void goToShopLink() {
         clickOn(shopLink);
     }
+
 }

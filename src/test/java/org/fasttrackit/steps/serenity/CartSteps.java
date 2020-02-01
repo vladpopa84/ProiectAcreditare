@@ -1,7 +1,6 @@
 package org.fasttrackit.steps.serenity;
 
 import net.thucydides.core.annotations.Step;
-import net.thucydides.core.annotations.Steps;
 import org.fasttrackit.pages.AccountPage;
 import org.fasttrackit.pages.HomePage;
 import org.fasttrackit.pages.ProductsPage;
@@ -40,8 +39,8 @@ public class CartSteps {
     }
 
     @Step
-    public void addProductToCart(String productName) {
-        productsPage.addProductToCart(productName);
+    public void addProductToCart() {
+        productsPage.addProductToCart();
     }
 
     @Step

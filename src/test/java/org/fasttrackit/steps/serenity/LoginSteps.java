@@ -43,6 +43,6 @@ public class LoginSteps {
 
     @Step
     public void goToShop() {
-        accountPage.clickShopLink();
+        accountPage.goToShopLink();
     }
 }

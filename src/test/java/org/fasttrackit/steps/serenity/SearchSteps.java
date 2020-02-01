@@ -33,8 +33,7 @@ public class SearchSteps {
 
     @Step
     public void verifyProductsNumber(int size) {
-        Assert.assertTrue("Numarul produselor gasite este" + size,
-                productsPage.verifyNumber(size));
+        Assert.assertTrue(productsPage.verifyNumber(size));
 
     }
 }

@@ -39,7 +39,7 @@ public class CartTest {
         loginSteps.enterRequiredInfo("vladpopa84@yahoo.com", "Rossignol9gs");
         loginSteps.clickLoginButton();
         loginSteps.goToShop();
-        cartSteps.addProductToCart("Belt");
+        cartSteps.addProductToCart();
         cartSteps.checkConfirmationMessage("has been added to your cart.");
 
     }

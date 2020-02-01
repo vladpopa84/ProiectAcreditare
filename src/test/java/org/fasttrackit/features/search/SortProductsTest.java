@@ -24,8 +24,6 @@ public class SortProductsTest {
         sortProductsSteps.goToProductsPage();
         sortProductsSteps.selectPriceAscending();
         sortProductsSteps.checkPriceAscending();
-
-
     }
 
 

@@ -5,6 +5,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -22,7 +23,7 @@ public class ProductsPage extends PageObject {
 
 
     @FindBy(css = ".entry-title > a")
-    private List<WebElementFacade> searchedProducts;
+    public List<WebElementFacade> searchedProducts;
 
     @FindBy(css = ".orderby")
     private WebElementFacade orderTypeSelector;
@@ -50,17 +51,17 @@ public class ProductsPage extends PageObject {
     public boolean verifySearchedProducts(String searchKeyword) {
         boolean match = false;
         for (WebElement productNamesElement : searchedProducts) {
-             if
-             (productNamesElement.getText().toLowerCase().contains(searchKeyword)){
-                 match = true;
-             }
-             else{
-                 match = false;
-             }
+            if
+            (productNamesElement.getText().toLowerCase().contains(searchKeyword)) {
+                match = true;
+            } else {
+                match = false;
+            }
         }
         return match;
     }
-    public boolean verifyNumber(int size){
+
+    public boolean verifyNumber(int size) {
         return searchedProducts.size() == size;
     }
 
@@ -95,20 +96,12 @@ public class ProductsPage extends PageObject {
         return true;
     }
 
-    public void addProductToCart(String productName) {
-        //clickOn(firstProduct);
-        for(WebElementFacade elementFacade: listOfProducts){
-            String name = elementFacade.findElement(By.cssSelector("h3")).getText().trim();
-            if(name.contentEquals(productName)){
-                //elementFacade.findElement(By.cssSelector("a.collection_title")).click();
-                elementFacade.click();
-                break;
-            }
-        }
+    public void addProductToCart() {
+        clickOn(firstProduct);
         clickOn(addToCartButton);
     }
 
-    public boolean checkConfirmationMessage (String text) {
+    public boolean checkConfirmationMessage(String text) {
         return confirmationMessage.containsText(text);
     }
 
