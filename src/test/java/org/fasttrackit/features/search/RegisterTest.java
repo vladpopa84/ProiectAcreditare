@@ -21,16 +21,16 @@ public class RegisterTest {
     @Test
     public void registerTest() {
         registerSteps.navigateToHomepage();
-        registerSteps.goToRegisterPage();
-        registerSteps.enterRequiredInfo("vladpopa856@yahoo.com", "Rossignol9gs");
+        registerSteps.goToMyAccountPage();
+        registerSteps.enterRequiredInfo("vladpopa861@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
-        registerSteps.checkLoggedIn("vladpopa856");
+        registerSteps.checkLoggedIn("vladpopa861");
     }
 
     @Test
     public void alreadyRegisteredTest() {
         registerSteps.navigateToHomepage();
-        registerSteps.goToRegisterPage();
+        registerSteps.goToMyAccountPage();
         registerSteps.enterRequiredInfo("vladpopa84@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
         try {
@@ -44,7 +44,7 @@ public class RegisterTest {
     @Test
     public void invalidEmailFormat() {
         registerSteps.navigateToHomepage();
-        registerSteps.goToRegisterPage();
+        registerSteps.goToMyAccountPage();
         registerSteps.enterRequiredInfo("vladpopa84@yahoo", "Rossignol9gs");
         registerSteps.clickRegisterButton();
         registerSteps.checkErrorMessage("Error:");

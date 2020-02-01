@@ -5,11 +5,10 @@ import org.fasttrackit.pages.AccountPage;
 import org.fasttrackit.pages.HomePage;
 import org.junit.Assert;
 
-public class RegisterSteps {
+public class LoginSteps {
 
     public HomePage homePage;
     public AccountPage accountPage;
-
 
     @Step
     public void navigateToHomepage() {
@@ -23,22 +22,22 @@ public class RegisterSteps {
 
     @Step
     public void enterRequiredInfo(String email, String pass) {
-        accountPage.setEmailField(email);
-        accountPage.setPassField(pass);
+        accountPage.inputEmail(email);
+        accountPage.inputPass(pass);
     }
 
     @Step
-    public void clickRegisterButton() {
-        accountPage.clickRegisterButton();
+    public void clickRememberMeCheckbox() {
+        accountPage.checkRememberMe();
+    }
+
+    @Step
+    public void clickLoginButton() {
+        accountPage.clickLoginButton();
     }
 
     @Step
     public void checkLoggedIn(String user) {
         Assert.assertTrue(accountPage.checkWellcomeMessage(user));
-    }
-
-    @Step
-    public void checkErrorMessage(String error) {
-        Assert.assertTrue(accountPage.checkErrorMessage(error));
     }
 }
