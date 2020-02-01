@@ -12,8 +12,14 @@ public class HomePage extends PageObject {
     @FindBy(css = "#menu-item-64>a")
     private WebElementFacade myAccountLink;
 
-    public void clickMyAccountTab() {
+    @FindBy(css = "#menu-item-66>a")
+    private WebElementFacade shopLink;
 
+    public void clickMyAccountTab() {
         clickOn(myAccountLink);
+    }
+
+    public void clickShopLink() {
+        clickOn(shopLink);
     }
 }
