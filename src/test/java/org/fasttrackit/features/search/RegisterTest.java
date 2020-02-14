@@ -22,9 +22,9 @@ public class RegisterTest {
     public void registerTest() {
         registerSteps.navigateToHomepage();
         registerSteps.goToMyAccountPage();
-        registerSteps.enterRequiredInfo("vladpopa864@yahoo.com", "Rossignol9gs");
+        registerSteps.enterRequiredInfo("vladpopa865@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
-        registerSteps.checkLoggedIn("vladpopa864");
+        registerSteps.checkLoggedIn("vladpopa865");
     }
 
     @Test

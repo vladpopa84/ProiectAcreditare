@@ -5,7 +5,6 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -39,6 +38,9 @@ public class ProductsPage extends PageObject {
 
     @FindBy(css = ".woocommerce-message")
     private WebElementFacade confirmationMessage;
+
+    @FindBy(css = ".fa-shopping-cart")
+    private WebElementFacade cartButton;
 
 
     public void searchProduct(String text) {
@@ -103,6 +105,10 @@ public class ProductsPage extends PageObject {
 
     public boolean checkConfirmationMessage(String text) {
         return confirmationMessage.containsText(text);
+    }
+
+    public void clickCartButton() {
+        clickOn(cartButton);
     }
 
 }

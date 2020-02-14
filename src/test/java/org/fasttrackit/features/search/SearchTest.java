@@ -30,6 +30,12 @@ public class SearchTest {
         searchSteps.goToProductsPage();
         searchSteps.searchProduct("t-shirt");
         searchSteps.verifyShowedProducts("t-shirt");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test

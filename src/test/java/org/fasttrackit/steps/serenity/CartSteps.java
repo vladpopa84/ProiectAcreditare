@@ -12,24 +12,13 @@ public class CartSteps {
     public AccountPage accountPage;
     public ProductsPage productsPage;
 
+
     @Step
-    public void navigateToHomepage() {
+    public void logIntoAccount(String email, String pass) {
         homePage.open();
-    }
-
-    @Step
-    public void goToMyAccountPage() {
         homePage.clickMyAccountTab();
-    }
-
-    @Step
-    public void enterRequiredInfo(String email, String pass) {
         accountPage.inputEmail(email);
         accountPage.inputPass(pass);
-    }
-
-    @Step
-    public void clickLoginButton() {
         accountPage.clickLoginButton();
     }
 
