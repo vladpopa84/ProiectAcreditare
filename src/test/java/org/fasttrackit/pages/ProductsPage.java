@@ -77,22 +77,22 @@ public class ProductsPage extends PageObject {
         for (int i = 0; i <= listOfProducts.size() - 2; i++) {
             try {
                 String priceI = listOfProducts.get(i)
-                        .findBy(By.cssSelector(".price > .amount"))
-                        .getText().replace(",00 RON", "").trim();
-                priceCurrent = Integer.valueOf(priceI);
+                        .findBy(By.cssSelector(".price .amount"))
+                        .getText().replace(",00 lei", "").trim();
+                priceCurrent = Integer.parseInt(priceI);
 
                 String priceI2 = listOfProducts.get(i + 1)
-                        .findBy(By.cssSelector("#product-19 > div.summary.entry-summary > p > ins > span"))
-                        .getText().replace(",00 RON", "").trim();
-                priceNext = Integer.valueOf(priceI2);
+                        .findBy(By.cssSelector(".price .amount"))
+                        .getText().replace(",00 lei", "").trim();
+                priceNext = Integer.parseInt(priceI2);
 
-                System.out.println("INt de i : " + i);
-
+                System.out.println("int de i : " + i);
+                System.out.println("pret1: " + priceCurrent);
+                System.out.println("pret2: " + priceNext);
                 if (priceCurrent > priceNext) {
                     return false;
                 }
             } catch (NoSuchElementException e) {
-                continue;
             }
         }
         return true;
