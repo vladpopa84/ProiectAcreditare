@@ -98,6 +98,7 @@ public class ProductsPage extends PageObject {
         return true;
     }
 
+
     public void addProductToCart() {
         clickOn(firstProduct);
         clickOn(addToCartButton);

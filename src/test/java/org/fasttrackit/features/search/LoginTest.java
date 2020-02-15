@@ -33,7 +33,7 @@ public class LoginTest {
         loginSteps.enterRequiredInfo("vladpopa@yahoo.com", "Rossignol9gs");
         loginSteps.clickRememberMeCheckbox();
         loginSteps.clickLoginButton();
-        loginSteps.checkLoggedIn("vladpopa84");
+        loginSteps.checkEmailErrorMsg();
     }
 
     @Test
@@ -43,7 +43,7 @@ public class LoginTest {
         loginSteps.enterRequiredInfo("vladpopa84@yahoo.com", "Rossignol9");
         loginSteps.clickRememberMeCheckbox();
         loginSteps.clickLoginButton();
-        loginSteps.checkLoggedIn("vladpopa84");
+        loginSteps.checkPassErrorMsg();
 
     }
 

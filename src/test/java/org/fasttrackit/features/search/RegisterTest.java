@@ -3,6 +3,7 @@ package org.fasttrackit.features.search;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.fasttrackit.steps.serenity.RegisterSteps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,13 +19,14 @@ public class RegisterTest {
     @Steps
     private RegisterSteps registerSteps;
 
+    String random = RandomStringUtils.randomAlphanumeric(10);
     @Test
     public void registerTest() {
         registerSteps.navigateToHomepage();
         registerSteps.goToMyAccountPage();
-        registerSteps.enterRequiredInfo("vladpopa865@yahoo.com", "Rossignol9gs");
+        registerSteps.enterRequiredInfo(random+"@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
-        registerSteps.checkLoggedIn("vladpopa865");
+        registerSteps.checkLoggedIn(random);
     }
 
     @Test
@@ -33,11 +35,7 @@ public class RegisterTest {
         registerSteps.goToMyAccountPage();
         registerSteps.enterRequiredInfo("vladpopa84@yahoo.com", "Rossignol9gs");
         registerSteps.clickRegisterButton();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        registerSteps.waitToLoad();
         registerSteps.checkErrorMessage("Error:");
     }
 

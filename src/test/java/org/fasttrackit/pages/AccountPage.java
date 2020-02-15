@@ -36,6 +36,12 @@ public class AccountPage extends PageObject {
     @FindBy(css = "#menu-item-66>a")
     public WebElementFacade shopLink;
 
+    @FindBy(css = ".woocommerce-error li")
+    private WebElementFacade emailError;
+
+    @FindBy(css = ".woocommerce-error li")
+    private  WebElementFacade passError;
+
 
     public void setEmailField(String email) {
         typeInto(regEmailField, email);
@@ -78,6 +84,14 @@ public class AccountPage extends PageObject {
 
     public void goToShopLink() {
         clickOn(shopLink);
+    }
+
+    public String checkEmailError() {
+        return emailError.getText();
+    }
+
+    public String checkPassError() {
+        return passError.getText();
     }
 
 }

@@ -6,6 +6,7 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.fasttrackit.steps.serenity.CartSteps;
 import org.fasttrackit.steps.serenity.CheckoutSteps;
+import org.fasttrackit.steps.serenity.RegisterSteps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
@@ -22,33 +23,28 @@ public class CheckoutTest {
     @Steps
     private CartSteps cartSteps;
 
+    @Steps
+    private RegisterSteps registerSteps;
+
     @Test
     public void checkoutTest() {
         checkoutSteps.logIntoAccount("vladpopa84@yahoo.com", "Rossignol9gs");
         checkoutSteps.addProductToCart();
         checkoutSteps.goToCart();
         checkoutSteps.goToCheckout();
-        checkoutSteps.enterFirstName("Vlad");
-        checkoutSteps.enterLastName("Popa");
-        checkoutSteps.selectCountry("Romania");
-        checkoutSteps.enterAddress("Str. Iuliu Maniu, Nr. 12");
-        checkoutSteps.enterTown("Cluj-Napoca");
-        checkoutSteps.enterPostcode("123456");
-        checkoutSteps.enterPhoneNumber("0740123123");
+        checkoutSteps.enterFirstName();
+        checkoutSteps.enterLastName();
+        checkoutSteps.selectCountry();
+        checkoutSteps.enterAddress();
+        checkoutSteps.enterTown();
+        checkoutSteps.enterPostcode();
+        checkoutSteps.enterPhoneNumber();
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        registerSteps.waitToLoad();
 
         checkoutSteps.finishTheOrder();
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        registerSteps.waitToLoad();
 
         checkoutSteps.checkConfirmationMessage("Order received");
 

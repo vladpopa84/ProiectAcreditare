@@ -38,38 +38,38 @@ public class CheckoutSteps {
     }
 
     @Step
-    public void enterFirstName(String firstName) {
-        checkoutPage.enterFirstName(firstName);
+    public void enterFirstName() {
+        checkoutPage.enterFirstName("Vlad");
     }
 
     @Step
-    public void enterLastName(String lastName) {
-        checkoutPage.enterLastName(lastName);
+    public void enterLastName() {
+        checkoutPage.enterLastName("Popa");
     }
 
     @Step
-    public void selectCountry(String text) {
-        checkoutPage.selectCountry(text);
+    public void selectCountry() {
+        checkoutPage.selectCountry("Romania");
     }
 
     @Step
-    public void enterAddress(String addressAndNumber) {
-        checkoutPage.enterAddress(addressAndNumber);
+    public void enterAddress() {
+        checkoutPage.enterAddress("Str. Iuliu Maniu, Nr. 12");
     }
 
     @Step
-    public void enterTown(String town) {
-        checkoutPage.enterTown(town);
+    public void enterTown() {
+        checkoutPage.enterTown("Cluj-Napoca");
     }
 
     @Step
-    public void enterPostcode(String postcode) {
-        checkoutPage.enterPostCode(postcode);
+    public void enterPostcode() {
+        checkoutPage.enterPostCode("123456");
     }
 
     @Step
-    public void enterPhoneNumber(String phoneNumber) {
-        checkoutPage.enterPhoneNumber(phoneNumber);
+    public void enterPhoneNumber() {
+        checkoutPage.enterPhoneNumber("0740123123");
     }
 
     @Step

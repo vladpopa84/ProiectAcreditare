@@ -22,4 +22,12 @@ public class HomePage extends PageObject {
     public void clickShopLink() {
         clickOn(shopLink);
     }
+
+    public void wait2Sec() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }

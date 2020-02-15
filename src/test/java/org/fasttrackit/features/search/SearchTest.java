@@ -3,6 +3,7 @@ package org.fasttrackit.features.search;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import org.fasttrackit.steps.serenity.RegisterSteps;
 import org.fasttrackit.steps.serenity.SearchSteps;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,12 +17,16 @@ public class SearchTest {
 
     @Steps
     private SearchSteps searchSteps;
+    @Steps
+    private RegisterSteps registerSteps;
 
     @Test
     public void searchProductTest() {
         searchSteps.navigateToHomepage();
         searchSteps.goToProductsPage();
-        searchSteps.searchProduct("t-shirt");
+        searchSteps.searchProduct("cap");
+        registerSteps.waitToLoad();
+        searchSteps.verifyShowedProducts("cap");
     }
 
     @Test
@@ -29,13 +34,9 @@ public class SearchTest {
         searchSteps.navigateToHomepage();
         searchSteps.goToProductsPage();
         searchSteps.searchProduct("t-shirt");
+        registerSteps.waitToLoad();
         searchSteps.verifyShowedProducts("t-shirt");
 
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
     @Test

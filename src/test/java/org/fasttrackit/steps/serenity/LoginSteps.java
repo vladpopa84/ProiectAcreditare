@@ -45,4 +45,14 @@ public class LoginSteps {
     public void goToShop() {
         accountPage.goToShopLink();
     }
+
+    @Step
+    public void checkEmailErrorMsg() {
+        Assert.assertTrue(accountPage.checkEmailError().contains("Invalid email address."));
+    }
+
+    @Step
+    public void checkPassErrorMsg() {
+        Assert.assertTrue(accountPage.checkPassError().contains("The password you entered"));
+    }
 }

@@ -41,4 +41,9 @@ public class RegisterSteps {
     public void checkErrorMessage(String error) {
         Assert.assertTrue(accountPage.checkErrorMessage(error));
     }
+
+    @Step
+    public void waitToLoad() {
+        homePage.wait2Sec();
+    }
 }
