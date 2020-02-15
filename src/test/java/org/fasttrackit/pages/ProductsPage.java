@@ -5,6 +5,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -76,19 +77,9 @@ public class ProductsPage extends PageObject {
         int priceNext;
         for (int i = 0; i <= listOfProducts.size() - 2; i++) {
             try {
-                String priceI = listOfProducts.get(i)
-                        .findBy(By.cssSelector(".price .amount"))
-                        .getText().replace(",00 lei", "").trim();
-                priceCurrent = Integer.parseInt(priceI);
+                priceCurrent = getProductPrice(listOfProducts.get(i));
+                priceNext = getProductPrice(listOfProducts.get(i + 1));
 
-                String priceI2 = listOfProducts.get(i + 1)
-                        .findBy(By.cssSelector(".price .amount"))
-                        .getText().replace(",00 lei", "").trim();
-                priceNext = Integer.parseInt(priceI2);
-
-                System.out.println("int de i : " + i);
-                System.out.println("pret1: " + priceCurrent);
-                System.out.println("pret2: " + priceNext);
                 if (priceCurrent > priceNext) {
                     return false;
                 }
@@ -96,6 +87,13 @@ public class ProductsPage extends PageObject {
             }
         }
         return true;
+    }
+
+    public int getProductPrice(WebElementFacade element) {
+        String priceI = element
+                .findBy(By.cssSelector(".price .amount"))
+                .getText().replace(",00 lei", "").trim();
+        return Integer.parseInt(priceI);
     }
 
 
